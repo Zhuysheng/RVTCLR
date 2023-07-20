@@ -4,4 +4,4 @@ PyTorch implementation of "Modeling the Relative Visual Tempo for Self-supervise
 
 <img src="fig/pipeline.png" width="50%">
 
-##Under construction
+## Under construction
