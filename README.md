@@ -41,8 +41,9 @@ python main.py linear_evaluation --config config/ntu60/linear_eval/linear_eval_s
 ```
 
 ## Acknowledgement
-This repo is based on
+This repo is based on 
   - [CrosSCLR](https://github.com/LinguoLi/CrosSCLR)
   - [AimCLR](https://github.com/Levigty/AimCLR)
+  - [AS-CAL](https://github.com/LZU-SIAT/AS-CAL)
 
 ## Citation
