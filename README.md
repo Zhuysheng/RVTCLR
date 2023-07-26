@@ -4,4 +4,35 @@ PyTorch implementation of "Modeling the Relative Visual Tempo for Self-supervise
 
 <img src="fig/pipeline.png" width="50%">
 
-## Under construction
+## Data Preparation
+- We use NTU RGB+D and NTU RGB+D 120 as our datasets.
+
+
+## Unsupervised Pretraining
+- Example for unsupervised pretraining of RVTCLR. You can change .yaml files in config/ntu60/pretext folder.
+```
+# train on NTU RGB+D xsub joint stream
+python main.py pretrain_skeletonclr --config config/ntu60/pretext/pretext_skeletonclr.yaml
+# train on NTU RGB+D xsub bone stream
+python main.py pretrain_skeletonclr --config config/ntu60/pretext/pretext_skeletonclr_bone.yaml
+# train on NTU RGB+D xsub motion stream
+python main.py pretrain_skeletonclr --config config/ntu60/pretext/pretext_skeletonclr_motion.yaml
+```
+
+## Linear Evaluation
+- Example for linear evaluation of RVTCLR. You can change .yaml files in config/ntu60/linear_eval folder.
+```
+# Linear_eval on NTU RGB+D xsub joint stream
+python main.py linear_evaluation --config config/ntu60/linear_eval/linear_eval_skeleton.yaml
+# Linear_eval on NTU RGB+D xsub bone stream
+python main.py linear_evaluation --config config/ntu60/linear_eval/linear_eval_skeleton_bone.yaml
+# Linear_eval on NTU RGB+D xsub motion stream
+python main.py linear_evaluation --config config/ntu60/linear_eval/linear_eval_skeleton_motion.yaml
+```
+
+## Acknowledgement
+This repo is based on
+  - [CrosSCLR](https://github.com/LinguoLi/CrosSCLR)
+  - [AimCLR](https://github.com/Levigty/AimCLR)
+
+## Citation
