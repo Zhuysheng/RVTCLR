@@ -2,7 +2,7 @@
 
 PyTorch implementation of "Modeling the Relative Visual Tempo for Self-supervised Skeleton-based Action Recognition", ICCV 2023
 
-<img src="fig/pipeline.png" width="50%">
+<img src="fig/pipeline.png" width="60%">
 
 ## Data Preparation
 - We use NTU RGB+D and NTU RGB+D 120 as our datasets.
