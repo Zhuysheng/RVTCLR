@@ -1,6 +1,7 @@
 # RVTCLR
 
 PyTorch implementation of "Modeling the Relative Visual Tempo for Self-supervised Skeleton-based Action Recognition", ICCV 2023
+[[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhu_Modeling_the_Relative_Visual_Tempo_for_Self-supervised_Skeleton-based_Action_Recognition_ICCV_2023_paper.pdf)]
 
 <img src="fig/pipeline.png" width="80%">
 
