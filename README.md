@@ -48,3 +48,14 @@ This repo is based on
   - [AS-CAL](https://github.com/LZU-SIAT/AS-CAL)
 
 ## Citation
+Please cite this work if you find it useful:
+```
+@InProceedings{Zhu_2023_ICCV,
+    author    = {Zhu, Yisheng and Han, Hu and Yu, Zhengtao and Liu, Guangcan},
+    title     = {Modeling the Relative Visual Tempo for Self-supervised Skeleton-based Action Recognition},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {13913-13922}
+}
+ ```
